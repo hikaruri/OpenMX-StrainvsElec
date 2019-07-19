@@ -1,30 +1,30 @@
 #!/bin/bash
 
-start_time = `date +%s`
+start_time=`date +%s`
 
 #
 # Set the parameter
 #
-  ElecStart = 0.0
-  ElecUnit  = 0.5
-  ElecEnd   = 30.0
+  ElecStart=0.0
+  ElecUnit=0.5
+  ElecEnd=30.0
   
-  LatCStart = 4.31
-  LatCUnit  = 0.02
-  LatCEnd   = 4.77
+  LatCStart=4.31
+  LatCUnit=0.02
+  LatCEnd=4.77
 
   SystemName="Bi"
   PI=3.141592653589793
   caxis=20.0
   OMXPATH=~/openmx3.8/source
 
-  OutputFile = "$SystemName.ElecvsLC"
+  OutputFile="$SystemName.ElecvsLC"
  # echo "#Lattice Constant Electric field Z2 Total Energy Bandgap" >> $OutputFile
 
-   upspin   = 7.5
-   downspin = 7.5
-   Atom1    = "Bi"
-   Atom2    = "Bi"
+   upspin=7.5
+   downspin=7.5
+   Atom1="Bi"
+   Atom2="Bi"
 #
 # loop for Electric field
 #
